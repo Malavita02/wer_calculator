@@ -18,6 +18,7 @@ def calculate_wer(reference, hypothesis):
 reference_text = "The cat is sleeping on the mat."
 hypothesis_text = "The cat is playing on mat."
 
+#maybe adding calculator with files
 
 if __name__ == "__main__":
     wer_score = calculate_wer(reference_text, hypothesis_text)
